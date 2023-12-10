@@ -18,4 +18,4 @@ def read_root():
     return {"Hello": "Hongzhe You"}
 @app.get("/uni/{uni_id}")
 def read_item(uni_id: str, q: Union[str, None] = None):
-    return {"uni_id":hy2762,"q":q}
+    return {"uni_id":"hy2762","q":q}
